@@ -34,12 +34,33 @@ nav ul li{
     display: inline-block;
     color: white;
     padding: 30px;
+    text-decoration: none;
 }
 
 nav ul li:hover{
     background-color: white;
     color: black;
 }
+
+nav ul li a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+article{
+    width: 25em;
+    height: 30em;
+    padding: 3em;
+    text-align: center;
+    background-color: #979797;
+    display: inline-block;
+}
+
+article p {
+    margin-bottom: 3em;
+}
+
 
 .container{
     clear: both;
@@ -71,4 +92,81 @@ h2{
 
 .texto{
     color: white;
+}
+
+.container-2{
+    background-color: #979797;
+    padding: 1em;
+}
+
+#projetos{
+    display: flex;
+}
+
+.titulo-projetos{
+    margin-left: 10em;
+    margin-top: 2em;
+}
+
+.saibamais{
+    border: none;
+    background-color: #ef2f25;
+    color: white;
+    width: 6em;
+    height: 3em;
+    padding: 0.5em;
+    margin-top: 1em;
+    font-size: large;
+    text-decoration: none;
+}
+
+.saibamais:hover{
+    background-color: white;
+    border: 1px solid #ef2f25;
+    color: #ef2f25;
+}
+
+.saibamais:visited{
+    text-decoration: none;
+}
+
+.projeto-imagem{
+    width: 10em;
+    height: 10em;
+}
+
+.social-icon{
+    width: 5em;
+    height: 5em;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.container-contato{
+    margin-left: 5em;
+    margin-top: 2em;
+}
+
+.container-contato h2{
+    margin-left: 4em;
+}
+
+.texto-contato{
+    color: white;
+    list-style: none;
+}
+
+.texto-contato li{
+    display: inline-block;
+    padding: 2em;
+}
+
+.whatsapp{
+    margin-left: 20em;
+    text-align: center;
+}
+
+.whatsapp img{
+    width: 3em;
+    height: 3em;
 }
