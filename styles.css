@@ -37,6 +37,11 @@ nav ul li{
     text-decoration: none;
 }
 
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
 nav ul li:hover{
     background-color: white;
     color: black;
@@ -68,12 +73,12 @@ article p {
     flex-wrap: nowrap;
     margin-left: 10em;
     margin-top: 5em;
+    padding: 2em;
 }
 
-.image-container{
+.my-image{
     width: 20em;
     height: 20em;
-    background-color: gray;
     border-radius: 100%;
     border: solid 2px black;
 }
@@ -94,7 +99,7 @@ h2{
     color: white;
 }
 
-.container-2{
+#container-projetos{
     background-color: #979797;
     padding: 1em;
 }
@@ -142,12 +147,12 @@ h2{
     border-radius: 100%;
 }
 
-.container-contato{
+#container-contato{
     margin-left: 5em;
     margin-top: 2em;
 }
 
-.container-contato h2{
+#container-contato h2{
     margin-left: 4em;
 }
 
@@ -161,12 +166,17 @@ h2{
     padding: 2em;
 }
 
-.whatsapp{
-    margin-left: 20em;
-    text-align: center;
+.contato{
+    float: right;
+    margin-right: 20em;
+    width: 20em;
 }
 
-.whatsapp img{
+.contato img{
     width: 3em;
     height: 3em;
+}
+
+.link:hover{
+    opacity: 45%;
 }
